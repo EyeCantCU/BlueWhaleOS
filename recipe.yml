@@ -12,6 +12,7 @@ main:
       - distrobox.sh
       - hosts.sh
       - opengamepadui.sh
+      - woeusb.sh
       - yafti.sh
   # Custom RPM configuration.
   rpm:
@@ -48,17 +49,18 @@ main:
       - input-remapper
       - jetbrains-mono-fonts-all
       - latte-dock-nightly
+      # GNOME's GTK4 theme, many native apps and binaries require it.
+      - libadwaita
+      - libgcc
       - libvirt-daemon-config-network
       - libvirt-daemon-kvm
+      - micro
       - mozilla-fira-mono-fonts
       - p7zip
       - p7zip-plugins
       - powerline-fonts
       - python3-libguestfs
-      # GNOME's GTK4 theme, many native apps and binaries require it.
-      - libadwaita
-      - libgcc
-      - micro
+      - python3-wxpython4
       - qemu-kvm
       - steamdeck-kde-themes
       - system76-scheduler
