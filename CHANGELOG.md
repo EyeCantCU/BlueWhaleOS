@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.10.0](https://github.com/EyeCantCU/BlueWhaleOS/compare/v2.9.1...v2.10.0) (2023-07-08)
+
+
+### Features
+
+* Enable supergfxd by default on Nvidia images ([e9d9a44](https://github.com/EyeCantCU/BlueWhaleOS/commit/e9d9a449d576c9a2ef3ba8faf7f962cd663ae6bc))
+* Use larger Ubuntu Nerd fonts and bring over fontconfig ([f1d33fc](https://github.com/EyeCantCU/BlueWhaleOS/commit/f1d33fcd0aa4db7330930b83bfe4732887e7eea6))
+
+
+### Bug Fixes
+
+* **carl:** Drop Aurorae window decorations ([7b4328f](https://github.com/EyeCantCU/BlueWhaleOS/commit/7b4328fe3151352db36fb1ca2d3524c913dadfb1))
+* Drop WhiteSur cursors ([f065855](https://github.com/EyeCantCU/BlueWhaleOS/commit/f065855d0b35a0df5a355bb452d8337d5395323a))
+* **fonts:** Properly copy over and address skewed naming issues ([a0b48a0](https://github.com/EyeCantCU/BlueWhaleOS/commit/a0b48a0a5288da0d68c0aa47ea322690b6edf3c3))
+* **kwin:** Remove GL_YIELD workaround used for Nvidia under X11 ([86c1f72](https://github.com/EyeCantCU/BlueWhaleOS/commit/86c1f72636755cf3375955eddce61222e46999d1))
+* Use new Wallpaper Engine plugin Copr ([3d81fc5](https://github.com/EyeCantCU/BlueWhaleOS/commit/3d81fc5e7096d82acf59b13ccac5cdf00e6b3a4c))
+
 ## [2.9.1](https://github.com/EyeCantCU/BlueWhaleOS/compare/v2.9.0...v2.9.1) (2023-07-08)
 
 
